@@ -1,0 +1,209 @@
+/*
+Theme Name: Oilbiotic
+Theme URI: https://www.oilbiotic.egenslab.com/
+Author: Egens Lab
+Author URI: https://www.templatemonster.com/authors/egenslab/
+Description: Oil Biotic is a powerful Multipurpose eCommerce WordPress Theme. Get from the Oilbiotic theme, you’ll obtain everything you need to create a cutting-edge website for your online shop, eCommerce, Organic Product Sale, or Super Shop Store. This theme using elementor website page builder so you can easily handle all sections. We follow a fully new trend design. I hope oilbiotic theme will grateful for your online store website.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+oilbiotic  is distributed under the terms of the GNU GPL version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oilbiotic
+Tags: eCommerce, store, online shop, elementor, product sale, custom-menu, featured-images, theme-options, translation-ready, custom-background, custom-colors, custom-header, editor-style, accessibility-ready
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.gallery-caption {
+    margin: 0;
+    padding: 0;
+}
+
+.bypostauthor {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+/*
+Comments List and Form
+ */
+.comment-area {
+    margin-top: 70px;
+}
+
+.comment-area li {
+    list-style: none;
+    margin: 25px 0px;
+}
+
+.comment-area li ul.children {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-area li img.avatar {
+    border-radius: 90%;
+    margin-right: 10px;
+}
+
+.comment-area .comment-metadata {
+    float: none;
+    margin-left: 45px;
+}
+
+.comment-area .comment-content {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.comment-area .reply {
+    margin-left: 45px;
+}
+
+.comment-area .comment-metadata a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.comment-area .comment-metadata a:hover {
+    color: #353535;
+    transition: all 0.3s;
+}
+
+.comment-area .comment-author a {
+    text-decoration: none;
+}
+
+.comment-area .comment-author a:hover {
+    color: #353535;
+    transition: all 0.3s;
+}
+.comment-area .reply a {
+    text-decoration: underline;
+}
+form#commentform input#submit {
+    background: #699432;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    color: #fff;
+}
+form#commentform input#submit:hover {
+    background: #353535;
+    transition: all 0.3s;
+}
+.comment-area p.logged-in-as {
+    font-size: 16px;
+}
